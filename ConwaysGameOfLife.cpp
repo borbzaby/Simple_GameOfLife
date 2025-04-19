@@ -23,7 +23,7 @@ signed main() {
     int inp_x, inp_y; // for inputting coords
     string input = "";
 
-    // HERE WE ACCEPT COORDINATES FOR OUR BEGINNING PATTERN
+    //get starting coords
     while (true) {
         cout << "\033[2J\033[1;1H";
         cout << "Input coords. no spaces: ";
